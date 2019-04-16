@@ -2,6 +2,7 @@ import scrapy
 from abuse.items import AbuseItem
 from scrapy.loader import ItemLoader
 
+
 class abuseSpider(scrapy.Spider):
     name = 'bcabuse'
     start_urls = ['https://www.bitcoinabuse.com/reports']
