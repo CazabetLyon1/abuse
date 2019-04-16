@@ -20,8 +20,8 @@ def keys_restructure():
 
 class reportSpider(scrapy.Spider):
     name = 'bcdata'
-    ## keys_restructure()
-    start_urls = ['https://www.bitcoinabuse.com/reports/1JBFFHR8tGiMgYLpnZCVG8n4cSpm591urc']
+    ## 
+    start_urls = keys_restructure()
 
     def parse(self,response):
         i = 0
